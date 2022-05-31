@@ -60,7 +60,7 @@ pip install -r requirements.txt
 To train and evaluate the model in the paper, run this command for Python:
 
 ```console
-cd AMRC/AMRC_Python
+cd Concept-drift-ICML-2022/AMRC_Python
 python run_AMRC.py
 
 ```
@@ -68,7 +68,7 @@ python run_AMRC.py
 and for Matlab:
 
 ```console
-cd AMRC/AMRC_Matlab
+cd Concept-drift-ICML-2022/AMRC_Matlab
 matlab run_AMRC.m
 ```
 
@@ -107,13 +107,13 @@ We display in this reposity an example for the "Usene2" dataset.
 We run the Matlab code
 
 ```train
-cd AMRC/AMRC_Matlab
+cd Concept-drift-ICML-2022/AMRC_Matlab
 matlab run_AMRC.m
 ```
 or Python code
 
 ```train
-cd AMRC/AMRC_Python
+cd Concept-drift-ICML-2022/AMRC_Python
 python run_AMRC.py 
 ```
  and they output:
