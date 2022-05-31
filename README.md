@@ -6,10 +6,14 @@ This repository is the official implementation of Minimax Classification under C
 
 The proposed AMRCs account for multivariate and high-order time changes, provide performance guarantees at specific time instants, and efficiently update classification rules. 
 
-<img src="instantaneous_bounds.gif" width="500" height="500"/>
-<img src="mistake_bounds.gif" width="500" height="500"/>
+AMRCs provide instantaneous bounds for error probabilities and bounds for accumulated mistakes.
 
-AMRCs provide instantaneous bounds for probabilities of error and bounds for accumulated mistakes.
+### Instantaneous bounds for error probabilities
+
+<img src="instantaneous_bounds.gif" width="500" height="500"/>
+
+### Bounds for accumulated mistakes
+<img src="mistake_bounds.gif" width="500" height="500"/>
 
 ## Source code
 
@@ -77,6 +81,8 @@ We use a synthetic dataset and 13 publicly available datasets.
 
 <img src="synthetic_data.gif" width="500" height="500"/>
 
+### Real-world datasets
+
 | Dataset | Time Steps | Dimensionality of instances | Number of labels | Majority class | Moving average of one |
 |:---------|------------:|---------------------------:|-----------------:|----------------:|------------------------:|
 | Weather | 18,159 | 8 | 2 | 68.6 | 32.0  |
@@ -91,8 +97,6 @@ We use a synthetic dataset and 13 publicly available datasets.
 | S. Grid | 60,000 | 13 | 2 | 63.8 | 46.2 |
 | Shuttle | 100,001 | 9 | 4 | 35.2 | 64.9   |
 | Poker | 829,201 | 10 | 10 | 50.1 | 25.5|
-
-### Real-world datasets
 
 We save the data in .mat files that contain two arrays: X composed by instances and Y composed by labels such as [`usenet2.mat`](Imvt.mat).
 
