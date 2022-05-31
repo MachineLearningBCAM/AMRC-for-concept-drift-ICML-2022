@@ -39,7 +39,8 @@ AMRC folder contains the Python and Matlab foldes that includes the Python and M
 The requirements are detailed in the requeriments.txt file. Run the following command to install the requeriments:
 
 ```setup
-cd AMRC/AMRC_Python
+
+AMRC-for-concept-drift/AMRC_Python
 pip install -r requirements.txt
 ```
 
@@ -60,7 +61,7 @@ pip install -r requirements.txt
 To train and evaluate the model in the paper, run this command for Python:
 
 ```console
-cd Concept-drift-ICML-2022/AMRC_Python
+cd AMRC-for-concept-drift-ICML-2022/AMRC_Python
 python run_AMRC.py
 
 ```
@@ -68,7 +69,7 @@ python run_AMRC.py
 and for Matlab:
 
 ```console
-cd Concept-drift-ICML-2022/AMRC_Matlab
+cd AMRC-for-concept-drift-ICML-2022/AMRC_Matlab
 matlab run_AMRC.m
 ```
 
@@ -107,13 +108,13 @@ We display in this reposity an example for the "Usene2" dataset.
 We run the Matlab code
 
 ```train
-cd Concept-drift-ICML-2022/AMRC_Matlab
+cd AMRC-for-concept-drift-ICML-2022/AMRC_Matlab
 matlab run_AMRC.m
 ```
 or Python code
 
 ```train
-cd Concept-drift-ICML-2022/AMRC_Python
+cd AMRC-for-concept-drift-ICML-2022/AMRC_Python
 python run_AMRC.py 
 ```
  and they output:
