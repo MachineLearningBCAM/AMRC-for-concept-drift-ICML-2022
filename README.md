@@ -24,7 +24,7 @@ AMRC folder contains the Python and Matlab foldes that includes the Python and M
 
 ### Python code
 
-[AMRC_ Python](/AMRC_Python)  folder contains Python scripts required to execute the method:
+[Python_code](/Python_code)  folder contains Python scripts required to execute the method:
 
 * run_AMRC.py is the main file. In such file we can modify the values of hyper-parameters such as  <img src="https://render.githubusercontent.com/render/math?math=\lambda_0">, the order, and the feature mapping. In addition, such function tracks uncertainty sets, provides performance guarantees at specific times, and updates classifier parameters.
 * efficient_learning.py efficiently updates classifier parameters.
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ### Matlab code
 
-[AMRC_Matlab](/AMRC_Matlab) folder contains Matlab scripts required to execute the method:
+[Matlab_code](/Matlab_code) folder contains Matlab scripts required to execute the method:
 
 * run_AMRC.m is the main file. In such file we can modify the values of hyper-parameters such as <img src="https://render.githubusercontent.com/render/math?math=\lambda_0">, the order, and the feature mapping.
 * AMRC.m tracks uncertainty sets, provides performance guarantees at specific times, and updates classifier parameters.
