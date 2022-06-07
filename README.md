@@ -2,7 +2,7 @@
 
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](/AMRC_Python) [![Made with!](https://img.shields.io/badge/Made%20with-MATLAB-red)](/AMRC_Matlab)  [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](#support-and-author)
 
-This repository is the official implementation of Minimax Classification under Concept Drift with Multidimensional Adaptation and Performance Guarantees.
+This repository is the official implementation of [Minimax Classification under Concept Drift with Multidimensional Adaptation and Performance Guarantees.](https://arxiv.org/pdf/2205.15942.pdf)
 
 The proposed AMRCs account for multivariate and high-order time changes, provide performance guarantees at specific time instants, and efficiently update classification rules. 
 
@@ -146,3 +146,10 @@ V. Alvarez, S. Mazuelas, J.A. Lozano.
 "Minimax Classification under Concept Drift with Multidimensional Adaptation and Performance Guarantees." In International Conference on Machine Learning. PMLR, 2022.
 
 The corresponding BiBTeX citation is given below:
+
+@article{alvarez2022minimax,
+  title={Minimax Classification under Concept Drift with Multidimensional Adaptation and Performance Guarantees},
+  author={{\'A}lvarez, Ver{\'o}nica and Mazuelas, Santiago and Lozano, Jose A},
+  journal={arXiv preprint arXiv:2205.15942},
+  year={2022}
+}
