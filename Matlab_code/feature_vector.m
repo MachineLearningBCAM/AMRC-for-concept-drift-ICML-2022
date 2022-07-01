@@ -31,7 +31,7 @@ function phi=feature_vector(x,y, n_classes, feature_mapping, feature_parameters)
 
 if strcmp(feature_mapping,'linear')
     x_phi = [x];
-elseif strcmp(feature_mapping,'kernel')
+elseif strcmp(feature_mapping,'RFF')
     D_kernel = feature_parameters{1};
     u = feature_parameters{2};
     x_phi = [cos(u'*x); sin(u'*x)];
