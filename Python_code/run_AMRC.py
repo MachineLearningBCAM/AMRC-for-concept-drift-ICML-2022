@@ -84,7 +84,7 @@ else:
 
 # Parameters of the RFF feature mapping
 D = 200
-gamma = 2^6
+gamma = 2**(-6)
 
 # Calculate the length m of the feature vector
 if feature_mapping == 'linear':
