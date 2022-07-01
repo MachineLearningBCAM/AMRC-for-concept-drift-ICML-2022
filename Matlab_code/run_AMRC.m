@@ -62,9 +62,9 @@ feature_mapping = 'linear';
 % If feature_mapping == 'linear' then, there is not optional arguments.
 % However, if feature_mapping == 'RFF' then, varargins are
     % feature_mapping = 'RFF';
-    % D = 200 (number of random Fourier components)
-    % gamma (scaling factor of RFF features)
-% [mistakes_rate, mistakes_idx, R_Ut] = AMRC(X, Y, order, W, N, K, feature_mapping, D, gamma);
+    % D = 200;% (number of random Fourier components)
+    % gamma = 2^(-6);% (scaling factor of RFF features)
+% [mistakes_rate, mistakes_idx, R_Ut] = AMRC(X, Y, order, W, N, K, deterministic, unidimensional, feature_mapping, D, gamma);
 
 disp(['AMRC for order ', num2str(order), ' has a mistakes rate ', num2str(mistakes_rate*100), '%', ' in ', filename, ' dataset using ', feature_mapping, ' feature mapping'])
 
