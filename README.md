@@ -147,9 +147,15 @@ V. Alvarez, S. Mazuelas, J.A. Lozano.
 
 The corresponding BiBTeX citation is given below:
 
-@article{alvarez2022minimax,
-  title={Minimax Classification under Concept Drift with Multidimensional Adaptation and Performance Guarantees},
-  author={{\'A}lvarez, Ver{\'o}nica and Mazuelas, Santiago and Lozano, Jose A},
-  journal={arXiv preprint arXiv:2205.15942},
-  year={2022}
-}
+@InProceedings{AlvMazLoz22,
+                    title = 	 {Minimax Classification under Concept Drift with 
+                                 Multidimensional Adaptation and Performance Guarantees},
+                    author =       {{\'A}lvarez, Ver{\'o}nica and Mazuelas, Santiago and Lozano, Jose A},
+                    booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+                    pages = 	 {486--499},
+                    year = 	 {2022},
+                    volume = 	 {162},
+                    series = 	 {Proceedings of Machine Learning Research},
+                    month = 	 {Jul},
+                    publisher =    {PMLR},
+                    }
